@@ -1,0 +1,98 @@
+.primary-blue {
+	color: #0866ff;
+}
+
+.bg-primary-blue {
+	background-color: #0866ff;
+}
+
+.cherry {
+	.color: #fb3c44;
+}
+
+.bg-cherry {
+	background-color: #fb3c44;
+}
+.color-grape {
+	color: #7d74ff;
+}
+
+.bg-grape {
+	background-color: #7d74ff;
+}
+
+.color-lemon {
+	color: #f9cf00;
+}
+
+.bg-lemon {
+	background-color: #f9cf00;
+}
+
+.color-lime {
+	color: #3fbb46;
+}
+
+.bg-lime {
+	background-color: #3fbb46;
+}
+
+.color-pink {
+	color: #fa61ba;
+}
+
+.bg-pink {
+	background-color: #fa61ba;
+}
+
+.color-teal {
+	color: #14b898;
+}
+
+.bg-teal {
+	background-color: #14b898;
+}
+
+.color-blue-link {
+	color: #0064d1;
+}
+
+.bg-blue-link {
+	background-color: #0064d1;
+}
+
+.dark-overlay {
+	.color: rgba(0, 0, 0, 0.4);
+}
+
+.bg-dark-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.light-overlay {
+	.color: rgba(255, 255, 255, 0.4);
+}
+
+.bg-light-overlay {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.dark {
+	color: #1c1c1d;
+}
+
+.bg-dark {
+	background-color: #1c1c1d;
+}
+
+.secondary-icon {
+	color: #b0b3b8;
+}
+
+.bg-secondary-icon {
+	background-color: #b0b3b8;
+}
+
+.icon-bg {
+	background-color: rgba(255, 255, 255, 0.1);
+}
