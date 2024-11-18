@@ -78,11 +78,11 @@
 }
 
 .dark {
-	color: #1c1c1d;
+	color: #1c1c1d! !important;
 }
 
 .bg-dark {
-	background-color: #1c1c1d;
+	background-color: #1c1c1d! !important;
 }
 
 .secondary-icon {
@@ -95,4 +95,37 @@
 
 .icon-bg {
 	background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav{
+	border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+ .search-bar span{
+	color: #b0b3b8! !important;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-right: none;
+	border-radius: 50%;
+	border: 0;
+	padding: 8px;
+	
+ }
+
+ .search-bar input{
+	color: #b0b3b8! !important;
+	background-color: rgba(255, 255, 255, 0.2);
+	border: none;
+	border-radius:50px;
+	border-left:none !important;
+	margin-left: 0px  !important;
+padding: 8px; 
+}
+
+.list-icon{
+	border: none !important;
+	gap: 30px;
+
+}
+
+.list-icon :hover{
+	background-color: rgba(255, 255, 255, 0.4);
 }
