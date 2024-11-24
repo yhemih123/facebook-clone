@@ -97,12 +97,13 @@
 	background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* navigation */
 nav{
 	border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
 }
  .search-bar span{
-	color: #b0b3b8! !important;
-	background-color: rgba(255, 255, 255, 0.2);
+	color: #b0b3b8; !important;
+	background-color: rgba(255, 255, 255, 0.1);
 	border-right: none;
 	border-radius: 50%;
 	border: 0;
@@ -112,20 +113,61 @@ nav{
 
  .search-bar input{
 	color: #b0b3b8! !important;
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.1) !important;
 	border: none;
 	border-radius:50px;
 	border-left:none !important;
 	margin-left: 0px  !important;
 padding: 8px; 
 }
-
-.list-icon{
-	border: none !important;
-	gap: 30px;
-
+.search-bar input:focus {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+}
+.search-bar input::placeholder{
+    color: #b0b3b8 !important;
+}
+/* middle colomn */
+ul{
+    list-style-type: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li svg{
+    color:#b0b3b8 ;
+}
+.mid-col ul{
+    justify-content: space-between;
+}
+.mid-col ul li {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.1);
+  
+}
+.mid-col ul li :hover{
+    background:rgba(255, 255, 255, 0.3);
+}
+.right-col   img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    
+}
+.right-col ul {
+    justify-content: end;
+    gap: 10px;
+}
+.right-col ul li{
+    padding: 10px;
+    border-radius: 50px;
+    background:rgba(255, 255, 255, 0.1); 
+}
+.right-col ul li :hover{
+    background:rgba(255, 255, 255, 0.3); 
 }
 
-.list-icon :hover{
-	background-color: rgba(255, 255, 255, 0.4);
-}
+
+
