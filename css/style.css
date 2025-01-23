@@ -563,4 +563,31 @@ dark_btn {
     border-radius: 4px;
 }
 
+.col-left-c,.col-right-c{
+    height: 90vh;
+    overflow: auto; 
+}
+.col-left-c.col-right-c::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 10px;
+}
+.col-left-c.col-right-c::-webkit-scrollbar{
+    width: 0px;
+    transition: all 1.5s ease-in-out;
+}
+.col-left-c.col-right-c:hover:-webkit-scrollbar{
+width: 10px;
+}
+.col-left-c.col-right-c::-webkit-scrollbar-thumb{
+    background-color: #1c1c1d;
+    border-radius: 10px;
+}
+.col-left-c.col-right-c::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+.col-left-c.col-right-c::-webkit-scrollbar-thumb:hover{
+    background-color: #b0b3b8;
+}
+
 
